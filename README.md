@@ -25,7 +25,7 @@
    ```
 5. descomprimir:
    ```bash
-   unzip -P [password] sistema_ventas.zip
+   7z x -p[password] -y sistema_ventas.zip
    ```
 6. ejecutar:
    ```bash
