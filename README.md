@@ -34,7 +34,7 @@
    ```
 
 
-   6. monstar la db:
+   7. monstar la db:
    ```bash
    cd database
    sed -i 's/utf8mb4_0900_ai_ci/utf8mb4_general_ci/g' db_sistema.sql
@@ -43,4 +43,12 @@
    si no se creo la db usar este:
    ```bash
    mariadb -u root -e "CREATE DATABASE IF NOT EXISTS db_sistema;"
+   ```
+   
+6. configurar coneccion:
+   ```bash
+   nano .env
+   DB_DATABASE=db_sistema
+   DB_USERNAME=root
+   DB_PASSWORD=
    ```
