@@ -3,7 +3,7 @@
 Este es un proyecto de gestión de ventas. Sigue los siguientes pasos para instalarlo:
 
 ## Requisitos Previos
-- Tener `git` instalado
+- Tener git instalado
 - Permisos de ejecución para scripts
 
 ## Instalación
@@ -20,7 +20,7 @@ Este es un proyecto de gestión de ventas. Sigue los siguientes pasos para insta
    ./install.sh
 
 ## Uso
-Después de la instalación, puedes iniciar el sistema con:
-   ./start.sh
+Para iniciar el sistema, ejecuta el script de instalación:
+   ./install.sh
 
 ¡Listo! El sistema de ventas estará funcionando.
