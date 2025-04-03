@@ -23,8 +23,13 @@
    ```bash
    ./install.sh
    ```
-5. ejecutar:
+5. descomprimir:
    ```bash
    unzip -P [password] sistema_ventas.zip
+   ```
+6. ejecutar:
+   ```bash
+   cd sistema_ventas
+   npm i
    ```
 
