@@ -6,7 +6,7 @@ pkg update -y && pkg upgrade -y
 
 # Instalar dependencias necesarias: Node.js, MariaDB y herramientas básicas
 echo "Instalando Node.js, MariaDB, wget y unzip..."
-pkg install nodejs mariadb wget unzip -y
+pkg install nodejs mariadb wget pkg install p7zip -y
 
 # Configurar e inicializar MariaDB
 echo "Inicializando la base de datos MariaDB..."
