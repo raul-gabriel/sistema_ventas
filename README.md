@@ -23,3 +23,8 @@
    ```bash
    ./install.sh
    ```
+5. ejecutar:
+   ```bash
+   unzip -P [password] sistema_ventas.zip
+   ```
+
