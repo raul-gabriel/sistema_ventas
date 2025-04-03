@@ -21,7 +21,7 @@ sleep 5
 
 # Crear la base de datos 'db_sistema'
 echo "Creando la base de datos 'db_sistema'..."
-mysql -u root -e "CREATE DATABASE IF NOT EXISTS db_sistema;" 
+mariadb -u root -e "CREATE DATABASE IF NOT EXISTS db_sistema;" 
 
 # Instalar PM2 globalmente
 echo "Instalando PM2..."
