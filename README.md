@@ -1,26 +1,25 @@
 # Sistema de Ventas
 
-Este es un proyecto de gestión de ventas. Sigue los siguientes pasos para instalarlo:
-
-## Requisitos Previos
-- Tener git instalado
-- Permisos de ejecución para scripts
+- Tener `git` instalado.
+```bash
+   git isntall
+```
 
 ## Instalación
+
 1. Clona el repositorio:
+   ```bash
    git clone https://github.com/raul-gabriel/sistema_ventas.git
-
-2. Ingresa al directorio del proyecto:
+   ```
+2. entrar al carpeta:
+   ```bash
    cd sistema_ventas
-
-3. Otorga permisos de ejecución al script de instalación:
+   ```
+3. darle permisos:
+   ```bash
    chmod +x install.sh
-
-4. Ejecuta el script de instalación:
+   ```
+4. ejecutar:
+   ```bash
    ./install.sh
-
-## Uso
-Para iniciar el sistema, ejecuta el script de instalación:
-   ./install.sh
-
-¡Listo! El sistema de ventas estará funcionando.
+   ```
